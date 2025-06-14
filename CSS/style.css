@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");Add commentMore actions
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --red: #ed1c24;
+  --grey: #0f0f0f;
+  
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+}
+@font-face {
+    font-family: futurak;
+    src: url('./fonts/futurak.ttf');
+}
+
+.logo-pic {
+    width: 160px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbaritems a {
+    font-size: 1.5rem;
+    color: var(--white);
+    text-decoration: none;
+    margin: 10px;
+    justify-content: center;
+
+}
+
+.btn-one {
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 12px;
+    margin: 10px;
+}
+
+.btn-two {
+
+    border-radius: 25px;
+    background-color: var(--red);
+    color: var(--white);
+    padding: 15px;
+}
+.icon-heading {
+    /* border: 2px solid var(--white); */
+    border-radius: 50%;
+    background-color: var(--white);
+    color: var(--red);
+    padding: 4px;
+
+}
+.pic-container {
+    width: 100%;
+    
+}
+.brand-heading {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 50px;
+    font-family: fufuturak;
+
+}
+
+.para-heading {
+    font-family: futurak;
+    font-size: 6rem;
+}
+.brand-para {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--light-gray);
+    margin-bottom: 30px;
+}
+/* Grand started */
+.Grand-contrainer {
+    display: flex;
+    justify-content:center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.grand-children {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px;
+    padding: 5px;
+
+}
+.G {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 20px;
+    border: 2px solid var(--light-gray);
+}
+
+
+.grand-children img {
+    width: 150px;
+    background-color: var(--white);
+    padding: 20px;
+}
+/* ended */
+
+.section-container {
+    background-color: var(--dark-grey);
+    padding-top: 30px;
+}
+
+.sub-section1 {
+    text-align: center;
+}
+
+.icn {
+    display: inline-block;
+}
+.sub-section2 {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    justify-content: center;
+   
+
+
+}
+.sub-setion2-btn {
+    padding: 15px;
+    background-color: var(--dark-grey);
+    color: var(--white);
+    border-radius: 20px;
+    border: 1px solid var(--white);
+
+
+}
+.heading-pic img{
+    width: 300px;
+    height: 200px;
+}
+
+.franchise {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sub-Franchise-1{
+   text-align: center;
+
+}
+.franchise-pic{
+    height: 250px;
+    width: 356px;
+}
+
+.sub-Franchise-2{
+   text-align: center;
+
+}
+.sub-Franchise-3{
+   text-align: center;
+
+}
+.sub-Franchise-4{
+   text-align: center;
+
+}
+.sub-Franchise-5{
+   text-align: center;
+
+}
+.sub-Franchise-6{
+   text-align: center;
+
+}
+.sub-Franchise-7{
+   text-align: center;
+
+}
+.sub-Franchise-8{
+   text-align: center;
+   font font-family: ;
+
+}
+.franchise-location{
+    color: var(--red);
+   letter-spacing: 0.48rem;
+   line-height: 15px;
+   margin: 24px 0px 8px 0px;
+   font-weight: 800;
+}
+.sub-name{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+.promotion-section{
+   background-color: var(--dark-grey);
+   margin-top: 50px;
+}
+.main-heading{
+    display: block;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 10px;
+    
+    
+}
+.sub-promotion-section{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.sub-promotion-section-1{
+    padding: 10px;
+    font-weight: 600;
+}
+.sub-promotion-btn{
+    padding: 10px;
+    background-color: rgb(103, 242, 103);
+    border-radius: 30px;
+    color: var(--white);
+}
+.img-section img{
+width: 629px ;
+height: 360px;
+}
+.new-Branches-commingsoon{
+    background-color: var(--black);
+    margin-top: 20px;
+    max-width: 1140px;
+
+}
+.sub-branches-logo{
+    display: block;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.burewala{
+    text-align: center;
+    background-color: var(--white);
+    color: var(--black);
+    height: 220px;
+    border-radius: 4px;
+    margin: auto;
+    margin-bottom: 32ox;
+    padding: 10px;
+    width: 29%;
+ 
+
+}
+.sub-new-bran{
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 1140px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.new-brans-last-sen{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 900;
+}
+
