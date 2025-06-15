@@ -75,58 +75,116 @@ body {
     padding: 4px;
 
 }
-/* .book-container started */
-.book-container{
+/* introducitn started */
+
+.intro {
+    text-align: center;
+    font-size: larger;
+    padding: 50px;
+}
+.para{
+    text-align: center;
+   
+}
+.main-heading h1{
+    font-size: x-large;
+    text-transform: capitalize;
+    text-decoration: overline;
+}
+
+.R{
+    text-align: center;
+
+}
+.sub-para{
+    text-align: center;
+    font-size: 1.5rem;
+}
+/* closed */
+
+/* container start  */
+.container{
+    /* /border: 2px solid red; */
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-top: 20px;
-}
-.left-side{
+    margin: auto ;
+    gap: 20px;
+    width: ;
+    flex-wrap: wrap;
     
-    border: 1px solid var(--white);
 }
-.left-side img{
+
+.left-side{
+     /* border: 2px solid rgb(99, 52, 210); */
+     width: 500px;
+}
+.right-img{
+    /* border: 2px solid rgb(227, 134, 13); */
     width: 500px;
 }
-/* .book-container closed */
-
- /* <!-- branchises section started  */
-
- .Branches{
+.right-img img{
+    width: 500px;
+    height: 347;
+}
+.left-H{
+    font-weight: 900;
+    font-size: 2rem;
+    width: 400px;
+}
+/* franchise :start */
+.franchise{
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
+    justify-content: center;
     margin-top: 30px;
-    
-    
+}
+
+/* container colsed */
+/* .Express start  */
+.ex-para{
+    text-align: center;
+}
+
+.Express{
+  display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    flex-direction: column;
+}
+ /* Express ended  */
+
+ .sub-section2{
+    display: flex;
  }
- p{
-    font-size: 1.rem;
- }
- h6{
-    font-size: 1.7rem;
- }
- /* .Branches section closed */
- .footer{
+.franchise{
     display: flex;
     justify-content: center;
-    gap: 90px;
-    margin-top: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.franchise-location{
+    color: var(--red);
+   letter-spacing: 0.48rem;
+   line-height: 15px;
+   margin: 24px 0px 8px 0px;
+   font-weight: 800;
+}
+.sub-name{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+.icn {
+    display: inline-block;
+}
+.sub-setion2-btn {
+    padding: 15px;
     background-color: var(--dark-grey);
-
-}
-.sub-footer{
-    width: 283px;
-}
-.footer-link{
-    display: flex;
-    flex-direction: column;
-    
-}
-.footer-link a{
-    text-decoration: none;
     color: var(--white);
+    border-radius: 20px;
+    border: 1px solid var(--white);
+
+
 }
