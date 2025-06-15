@@ -266,8 +266,10 @@ height: 360px;
 }
 .sub-branches-logo{
     display: block;
-    /* display: flex; */
-    /* justify-content: center; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .burewala{
     text-align: center;
@@ -299,3 +301,38 @@ height: 360px;
     font-weight: 900;
 }
 
+/* last part started */
+.last-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-last{
+    width: 237px;
+    height: 237px;
+}
+.sub-last img{
+    width: 237px;
+    height: 237px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 30px;
+    background-color: var(--dark-grey);
+
+}
+.sub-footer{
+    width: 283px;
+}
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-link a{
+    text-decoration: none;
+    color: var(--white);
+}
